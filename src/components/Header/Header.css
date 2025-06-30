@@ -1,0 +1,87 @@
+.header1{
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px #0000001a;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: 500;
+}
+.nav:hover{
+    text-decoration: underline;
+    color: white;
+}
+a.navitem.nav:hover{
+    text-decoration: none;
+}
+.navbar{
+    color: white;
+     font-size: 1.8em;
+    font-weight: 700;
+    margin-right: 400px;
+  
+}
+.navitem{
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color .3s ease;
+    font-weight: 700;
+    
+}
+
+.boxspirit{
+    background-color: #28a745;
+    font-size: 1.2em;
+    padding: 15px 30px;
+}
+
+.box2{
+    text-align: center;
+}
+.hero1{
+    position: relative;
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+.hero2{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    filter: brightness(50%);
+}
+.hero3{
+       position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+        width:90%
+}
+.hero3.hero1{
+    font-size: 3.5em;
+    margin-bottom:15px;
+}
+.box1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.box2{
+    padding-bottom: 50px;
+}
+
